@@ -1,6 +1,6 @@
 # APPtivity
 
-The [finished app](http://codepen.io/baddeo/full/jsICq/)
+The [finished app](http://codepen.io/baddeo/pen/ofqGk)
 
 ## Let's code
 
@@ -14,14 +14,13 @@ The [finished app](http://codepen.io/baddeo/full/jsICq/)
 1. Set up the HTML box (hide the JS and CSS boxes)
 * Explain `body` and `head` 
 * Write all the content of our app 
-* `h1` (useful for Google Fonts)
-* `form`
+* `h1` (useful for Google Fonts later)
+* `p`
 * `input`
 * Difference between `value` and `placeholder`
-* Add `name` attributes
-* `button type="submit"` with the same content of the `h1` to explain the concept of **markup**
-* Show Google Search at this point to explain how forms work 
-* `p`
+* `button` with the same content of the `h1` to explain the concept of **markup**
+* `p#message`
+* Add `id` attributes to `input` elements
 
 ##### OPTIONAL 
 
@@ -35,18 +34,23 @@ Useful to show **selectors** and hide the `p`
 1. `h1` centred
 * `p`
 
-        p
+        p#message
 		{
-		  display: none;
+		    display: none;
 		}
+* `button`: `color` and `background`
+* [Google Fonts](https://www.google.com/fonts)  
 
 ##### OPTIONAL 
 
-* `button`: `color` and `background`
 * [Normalize.css](http://necolas.github.io/normalize.css/)
 
 
+
+
 ## Break!
+
+
 
 ## Code a human
 
@@ -61,24 +65,23 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 * People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..)
 * We can then make them their code more *abstract* and *flexible* with **logic** and **functions**.
 
+If people are still puzzled, let them play [LightBot](http://lightbot.com/) for a bit.
+
+
 
 ## Behaviour
 
+This is where things start to get really powerful!
+
 1. Introduce `console.log`
 * Include **jQuery** (explain *libraries*)
-* Make the `p` appear `jQuery("p").fadeIn()`
+* Make `p#message` appear `jQuery("p").fadeIn()`
 * Write a function which triggers when you click on the submit button
 	
-	    $("form").on("submit", doSomething)
+	    $("button").on("clik", doSomething)
 	    
 * We've got a **bug**. Let's fix it, by defining `function doSomething()`
 * Make sure the function works, using `console.log` again
-* We have another bug, the page refreshes on form submit
-* Let's *google* `how to stop form refresh after submit`. 
-
-	Should get [this result](http://stackoverflow.com/questions/1263852/prevent-form-redirect-or-refresh-on-submit) first, which allows us to explain how SO works and use `return false`.
-	
-	Otherwise, `e.preventDefault()` is an option too.
 	
 * Break down the app **behaviour**, introducing **comments**.
 	
@@ -91,11 +94,11 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 	    	// 3. display the choice
 	    }
 
-* Let's *google* `jquery get input value by name`.
+* Let's *google* `jquery get input value by id`.
 
-	This will bring up the [jQuery.val()](http://api.jquery.com/val/) method, as well as the [quick answer from SO](http://stackoverflow.com/questions/2109472/how-to-get-a-value-of-an-element-by-name-instead-of-id))
+	This will bring up the [jQuery.val()](http://api.jquery.com/val/) method, as well as the [quick answer from SO](http://stackoverflow.com/questions/4088467/get-the-value-in-an-input-text-box))
 
-* Show people how to store the value of the first option in a **variable** (because computers are **forgetful**, they won't **remember** unless you tell them to) 
+* Show people how to store the value of the first option in a **variable** `var option1 = ...` (because computers are **forgetful**, they won't **remember** unless you tell them to) 
 * Ask people to store the value of `option2` in another variable.
 
 * Let's see if we can display a **message**. 
@@ -104,7 +107,7 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 	
 	Introduce **string concatenation**.
 	
-	`$("p").html("You should " + option2)`
+	`$("p#message").html("You should " + option2)`
 	
 	
 * Talk about [**Clarke's third law**](http://en.wikipedia.org/wiki/Clarke's_three_laws) `Any sufficiently advanced technology is indistinguishable from magic` to introduce the next step. We could develop an algorithm vased on various	APIs, however for now we'll just ask the computer to **make a random choice** and make it look like it's clever.
@@ -120,10 +123,7 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 
 #### OPTIONAL
 
-1. Make `p` fade out on click
-* Give the social buttons some behaviour
-
-* [x] Click on Share and then send to your phone
+1. Make `p#message` fade out on click
 
 ## Dress code
 
@@ -136,7 +136,8 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 	* `padding`
 	* tranparency
 	* `border-radius`
-* Style **fonts**, using [Google Fonts](https://www.google.com/fonts)
+	* `background-image`
+* Click on **Share** and then send to your phone
 * Make the app look proper on a phone. Google `how to stop phone zooming out pages`
 * Make the app **full screen**. Google `how to hide address bar in mobile browser` and you should find [this tutorial](http://www.html5rocks.com/en/mobile/fullscreen/) 
 * Add the app to your phone's **home screen**
@@ -146,16 +147,14 @@ The idea is to engage people with an [easy task](http://pss.sagepub.com/content/
 #### OPTIONAL         	
 
 * `-webkit-appearance: none;` to get rid of inner shadows in `input`
-* [Font-Awesome](http://fortawesome.github.io/Font-Awesome/) for social icons?
 
 
 
 ## What next?
  
-* Hook it to an **API** (eg: weather, maps, videos, music, [unistats](http://unistats.direct.gov.uk/)...)
-* Turn it into a **paper-scissors-stone** game
+Hook it to an **API** (eg: weather, maps, videos, music, [unistats](http://unistats.direct.gov.uk/)...)
 
 
 ### Debug
 
-* Form submit on `Enter` only with one `input`, if you have 2+ then you need a `submit` input/button
+
