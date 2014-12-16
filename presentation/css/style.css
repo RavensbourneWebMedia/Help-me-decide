@@ -41,6 +41,24 @@
 		margin-top: 10%;
 	}
 
+	#today img#app
+	{
+		position: absolute;
+		top: 283%;
+		left: 38%;
+		/* right: 0; */
+
+		width: 256px;
+		max-height: 512px;
+
+		transition: top .6s .4s cubic-bezier(0, 1.6, 1, 1); 
+	}
+
+	#today.present img#app
+	{
+		top: 0;
+	}
+
 /* #WWW */
 
 	#www img
