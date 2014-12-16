@@ -1,7 +1,8 @@
 # Web Media Taster Session
 
-**A crash course in Web-making.** 
+**A one-day crash course in Web-making.** 
 
-Through a hands-on project, participants will explore the potential of the Web as an open platform for self-expression, as well as learning the fundamentals of HTML, CSS and JavaScript.
+By making a simple *Web-app*, participants explore the potential of the Web as an open platform for self-expression, and get to know the fundamentals of HTML, CSS and JavaScript.
 
-[Event details on Eventbrite](http://bit.ly/web-media-taster)
+
+![Help me decide, the app](https://raw.githubusercontent.com/RavensbourneWebMedia/Taster-Session/master/apptivity/help-me-decide/illustration/arm.png)
