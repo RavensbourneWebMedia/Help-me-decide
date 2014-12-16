@@ -195,6 +195,9 @@ Before we start coding the **behaviour** of our app, let's pretend that I'm a **
 * Actions → Functions **verbs**
 * Decisions → Logic **conjunctions**
 
+Explain functions with `makeTea( howMuchSugar, withMilk )`
+
+
 
 
 
