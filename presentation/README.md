@@ -1,5 +1,13 @@
 # Presentation
 
+## Welcome to Ravensbourne
+
+**We are** a university college with a wide range of undergraduate and postgraduate degrees.
+
+Not going to try and sell Rave to you, as this **building** and its **facilities** speak for themselves.
+
+You can pick up a **booklet** if you want to learn more about Rave, and we'll be here to answer all your **questions** today.
+
 
 ## Creative coding
 
@@ -9,17 +17,17 @@ For many of you, this will be a **memorable day**! You'll write your **first lin
 
 Exciting, **fun**!
 
-*On a practical note*, our **schedule** is.. we will have **breaks** at around 11:30 (half an hour) and 13:30 (1 hour)
+*On a practical note*, our **schedule** is.. we will have **breaks** at around 11:30 (half an hour) and 13:30 (1 hour). Aiming to wrap up by 3pm.
 
 
-## Two words about myself
+## Two words about ourselves
 
 
 ## What is code?
 
-**Why** do we need code? What is code used for? Who or what runs code? **Where** is code?
+Can you think of examples of words with `code` in them? (*Morse code*, *post code*, *dress code*...)
 
-Code existed before computers (think *Morse code*, *post code*, *dress code*).
+Code existed before computers.
 
 Code is about **communication**. If I want to talk to my **grandma**, I need to use Italian. To communicate with you, I use English. To **talk to a computer**, I use..
 
@@ -32,12 +40,6 @@ Imagine a computer is your most pedantic **friend**:
 * **break down** every step
 * be **precise**
 * it will take you **literally**
-
-### Spot the difference
-
-To realise the level of precision and **pedantry** your digital friend requires.
-
-- [x] But we're using [SLIM](http://slim-lang.com/) right? So does it make sense to show *real* HTML?
 
 
 ## What are computers good at?
@@ -81,16 +83,16 @@ To become a pattern cutter, you **deconstruct** and copy good garments.
 
 To make things on the Web, you **inspect** and copy good websites.
 
-**Today** you're going to **copy me** for a bit, then **hack** what you've copied into something **new**.
+_Show Facebook > Inspect Element_
+
+**Today** you're going to **copy us** for a bit, then **hack** what you've copied into something **new**.
 
 
 ## Today
 
-Joke about making a *relational database*
-
 You will make an **app**.  
 
-I will show you a few **coding tricks** and we'll lay the **foundations** of your app together. 
+We will show you a few **coding tricks** and we'll lay the **foundations** of your app together. 
 
 Then you will explore the **potential of the Web** as an open platform for you to **express your creativity**.
 
@@ -98,6 +100,8 @@ Then you will explore the **potential of the Web** as an open platform for you t
 ## What is the Web?
 
 The Web is not the Internet. If the Internet is a global **brain** (infrastructure), the Web is all the **memories and thoughts** that run on top of it.
+
+Super-short history of the Web.
 
 The WWW started as a way of **linking** academic documents together, over **2 computers in Switzerland**. 
 
@@ -129,7 +133,14 @@ JS → behaviour and logic
 
 **RECIPE analogy** (ingredients - serving suggestions - method)
 
-(what - how - when/if)
+_BBC homepage example > disable CSS to show what code does what_
+
+
+## Your brief
+
+Make an app that helps people **make a decision**.
+
+The app must take in some human **input**, use **code** to manipulate it, and then present a human-readable **output**.
 
 
 ## Become Web-literate
@@ -140,27 +151,22 @@ Today is not about becoming proficient coders (although this could be your start
 
 You may want to become a fashion designer, or a (ask)? However as a **creative professional in the 21st century you can’t be Web-illiterate**. Just like you have to be able to read and write, and do some maths. You need to understand a bit of code. 
 
+You don't have to be a geek/nerd, the Web is for everyone.
+
 Being Web-literate will enable you to use the Web as an **open platform**, a place where you can be a **maker**, instead of a **consumer**. 
 
+Also it's a highly paid industry. 
 
-## Open what?
+## Let's code
 
-The Web is full of resources: **open-source** code and **open data** that you can use to make amazing apps!
-
-* Free? Why? It's **sharing** more than *giving away*.
-* What is **open-source**? Libraries (eg: [jQuery](https://github.com/jquery/jquery), [Reveal.JS](https://github.com/hakimel/reveal.js/)), GitHub, reputation economy..
-* What is **open data**? APIs, WikiPedia
+* Go online
+* Find [CodePen](http://codepen.io/)
+* Sign up 
 
 
-## Your brief
 
-Make an app that helps people **make a decision**.
 
-The app must take in some human **input**, use **code** to manipulate it, and then present a human-readable **output**.
 
-You can use **data** from the Web to help people make a decision.
-
-Eg: you can use **[weather data](http://www.wunderground.com/weather/api)** to help people decide if they should take an umbrella or not. Or you can use **[unistats](http://unistats.direct.gov.uk/) data** to help people decide what university they should apply for.
 
 ## Robot time!
 
@@ -173,9 +179,6 @@ Let's pretend I'm a **robot** and you have to **code me**.
 People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..)
 
 We can then make them their code more *abstract* and *flexible* with **logic** and **functions**.
-
-
-* [ ] Slide to show the game rules	
 	
 (The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)
 	
@@ -193,9 +196,5 @@ Before we start coding the **behaviour** of our app, let's pretend that I'm a **
 * Decisions → Logic **conjunctions**
 
 
-## Let's code
 
-* Go online
-* Find [CodePen](http://codepen.io/)
-* Sign up 
 

@@ -38,11 +38,7 @@
 
 	#today #app
 	{
-		position: absolute;
-		top: 43%;
-		text-align: center;
-		left: 0;
-		right: 0;
+		margin-top: 10%;
 	}
 
 /* #WWW */
